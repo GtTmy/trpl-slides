@@ -1,0 +1,6 @@
+/* @theme gttmy-basic */
+@import 'default';
+
+section {
+  justify-content: start;
+}

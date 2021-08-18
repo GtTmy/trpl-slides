@@ -1,5 +1,6 @@
 ---
 marp: true
+theme: gttmy-basic
 ---
 <!-- paginate: true -->
 
@@ -431,7 +432,6 @@ impl Rectangle {
 - 気になること
   - メモリ上でどのように配置される?
   - `std::fmt::Debug` を実装するとどうなる?
-  - `impl` ブロックは複数のファイルに分けてもよい?
 
 ---
 
