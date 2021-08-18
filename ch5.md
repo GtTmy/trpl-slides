@@ -122,7 +122,6 @@ let user2 = User {
 ```rust
 struct Color(i32, i32, i32);
 struct Point(i32, i32, i32);
-
 fn print_color(color: Color) {
     // tuple と同じようにアクセス可能
     println!("({},{},{})", color.0, color.1, color.2);
@@ -132,7 +131,6 @@ fn main() {
     // 同じ(i32, i32, i32)だが、型は別物
     let black = Color(0, 0, 0);
     let origin = Point(0, 0, 0);
-
     print_color(black); // OK
     // print_color(origin); // 型が異なるのでNG
 }
@@ -219,7 +217,7 @@ fn area(width: u32, height: u32) -> u32 {
 
 ---
 
-# 1. 長方形 構造体を作る
+# 1. 長方形構造体を作る
 
 `width` と `height` が長方形の情報である点が明確化された。
 
@@ -470,7 +468,7 @@ struct Foo {
 
 また、アラインメントを指定するには `#[repr(align(n))]` をつける。(nは2の累乗)。`#[repr(packed)]` は n=1と同じ意味で、パディングしない。
 
-C言語風かつパディングしない場合は、`#[repr(C)]`と`#[repr(packed)]`をつける
+Cと同様の配置かつパディングしない場合は、`#[repr(C)]`と`#[repr(packed)]`をつける
 
 ---
 
