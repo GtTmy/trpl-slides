@@ -4,6 +4,12 @@ theme: gttmy-basic
 ---
 <!-- paginate: true -->
 
+<style scoped>
+section {
+  justify-content: center;
+}
+</style>
+
 # 5. 構造体を使用して関係のあるデータを構造化する
 
 後藤 智哉
