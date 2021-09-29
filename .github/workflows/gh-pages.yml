@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: mkdir build && docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG marpteam/marp-cli -I slides -o build
+        run: docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli -I slides -o build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
