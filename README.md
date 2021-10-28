@@ -7,3 +7,5 @@
   - [https://gttmy.github.io/trpl-slides/ch5.html](https://gttmy.github.io/trpl-slides/ch5.html)
 - `13. 関数型言語の機能: イテレータとクロージャ`
   - [https://gttmy.github.io/trpl-slides/ch13.html](https://gttmy.github.io/trpl-slides/ch13.html)
+- `15. スマートポインタ (15.4 - 15.6)`
+  - [https://gttmy.github.io/trpl-slides/ch15.html](https://gttmy.github.io/trpl-slides/ch15.html)
