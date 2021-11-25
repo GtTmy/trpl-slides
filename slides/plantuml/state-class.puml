@@ -1,0 +1,18 @@
+@startuml
+
+Post *-right- State
+
+State <|-- Draft
+State <|-- PendingReview
+State <|-- Published
+
+Post : content() 
+Post : add_text() 
+Post : request_review() 
+Post : approve() 
+Post : State state
+State : pending_review()
+State : approved()
+State : content()
+
+@enduml

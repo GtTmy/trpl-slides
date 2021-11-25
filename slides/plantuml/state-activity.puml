@@ -1,0 +1,7 @@
+@startuml 
+
+[*] -right-> Draft
+Draft -right-> PendingReview: request_review()
+PendingReview -right-> Published: approved()
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml gui
+
+Component <|-- Button
+Component <|-- Image
+Component <|-- SelectBox
+Component <|-- TextField
+
+Component : draw()
+
+@enduml
