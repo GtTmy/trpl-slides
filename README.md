@@ -9,3 +9,5 @@
   - [https://gttmy.github.io/trpl-slides/ch13.html](https://gttmy.github.io/trpl-slides/ch13.html)
 - `15. スマートポインタ (15.4 - 15.6)`
   - [https://gttmy.github.io/trpl-slides/ch15.html](https://gttmy.github.io/trpl-slides/ch15.html)
+- `17. Rustのオブジェクト指向プログラミング機能`
+  - [https://gttmy.github.io/trpl-slides/ch17.html](https://gttmy.github.io/trpl-slides/ch17.html)
