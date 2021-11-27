@@ -2,6 +2,6 @@
 
 [*] -right-> Draft
 Draft -right-> PendingReview: request_review()
-PendingReview -right-> Published: approved()
+PendingReview -right-> Published: approve()
 
 @enduml

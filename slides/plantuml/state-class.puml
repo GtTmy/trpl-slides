@@ -12,7 +12,7 @@ Post : request_review()
 Post : approve() 
 Post : State state
 State : pending_review()
-State : approved()
+State : approve()
 State : content()
 
 @enduml
