@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build
-        run: docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli -I slides -o build --theme-set theme/gttmy-basic.css
+        run: docker run --rm -v $PWD:/home/marp/app/ -e LANG=$LANG -e MARP_USER="$(id -u):$(id -g)" marpteam/marp-cli -I slides -o build --theme-set theme/gttmy-basic.css && cp -r slides/images build/
       - name: Index
         run: docker run --rm -v $PWD:/data --user "$(id -u):$(id -g)" pandoc/core -f markdown -t html README.md > build/index.html
       - name: Deploy
